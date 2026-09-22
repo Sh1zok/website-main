@@ -13,7 +13,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #00FFFF #002222;
 }
+::-webkit-scrollbar-track {background: #002222}
+::-webkit-scrollbar-thumb {background-color: #00FFFF}
 body {background: rgb(30, 30, 30)}
 .divider {
     width: 64vw;
@@ -162,7 +166,7 @@ nav {
 
 footer {
     display: flex;
-    margin: max(2.5vh, 2.5vw) max(7.5vw, 7.5vh) max(2vh, 2vw) max(7.5vw, 7.5vh);
+    margin: 0 max(7.5vw, 7.5vh) max(2vh, 2vw) max(7.5vw, 7.5vh);
     align-items: center;
     font-family: FeatureMono, system-ui;
     font-size: max(1vw, 1.75vh);

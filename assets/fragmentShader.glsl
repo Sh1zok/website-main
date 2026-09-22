@@ -1,8 +1,8 @@
 #define gridSizeMultiplier 2.25
 #define mutationSpeedMultiplier 0.05
 #define brightnessMultiplier 0.375
-#define viewportVelocityX 0.05
-#define viewportVelocityY 0.02
+#define viewportVelocityX 0.1
+#define viewportVelocityY 0.04
 #define randomFactor 0.02
 #define pixelSize 6.0
 
