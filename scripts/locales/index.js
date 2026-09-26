@@ -1,5 +1,5 @@
 export const ruLocaleMap = {
-    homeLink: 'Главная',
+    pagesLink: 'Статьи',
     projectsLink: "Проекты",
     welcomeSplashes: [
         "Привет! Я - <a id='Sh1zok'>Шизок</a>!",
@@ -167,7 +167,7 @@ export const ruLocaleMap = {
 
 
 export const enLocaleMap = {
-    homeLink: "Home",
+    pagesLink: "Pages",
     projectsLink: "Projects",
     welcomeSplashes: [
         "Hey there! I’m <a id='Sh1zok'>Sh1zok</a>!",
